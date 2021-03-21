@@ -1,0 +1,24 @@
+{
+    "name": "Slack Trader Indicators",
+    "version": "0.1.0",
+    "description": "Slack notification for Trading Indicators",
+    "private": true,
+    "engines": {
+        "node": ">=8.12.0"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "author": "Tim Mader-Brown <tomatobrown@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "@slack/web-api": "^6.0.0",
+        "@slack/webhook": "^6.0.0",
+        "axios": "0.21.1",
+        "bluebird": "^3.7.2",
+        "crypto": "^1.0.1",
+        "lodash": "^4.17.21",
+        "technicalindicators": "^3.1.0",
+        "trading-indicator": "^1.0.4-beta"
+    }
+}
